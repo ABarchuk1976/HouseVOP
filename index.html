@@ -20,43 +20,48 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <svg class="logo-icon-size fill-icon">
+        <svg class="header-logo-icon-size fill-icon">
           <use href="./images/icons.svg#icon-header-logo"></use>
         </svg>
         <nav>
           <ul class="header-menu">
             <li class="header-menu-item">
-              <a href="#" class="header-menu-limk">Про комплекс</a>
+              <a href="#" class="header-menu-link">Про комплекс</a>
             </li>
             <li class="header-menu-item">
-              <a href="#" class="header-menu-limk">Район</a>
+              <a href="#" class="header-menu-link">Район</a>
             </li>
 
             <li class="header-menu-item">
-              <span>Каталог квартир</span>
+              <div class="header-menu-popup">
+                Каталог квартир
+                <svg class="header-menu-icon-size fill-icon">
+                  <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+              </div>
               <ul class="header-submenu">
                 <li class="header-submenu-item">
-                  <a href="#" class="hesder-submenu-item">Стандарт</a>
+                  <a href="#" class="header-submenu-item">Стандарт</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="hesder-submenu-item">Комфорт</a>
+                  <a href="#" class="header-submenu-item">Комфорт</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="hesder-submenu-item">Люкс</a>
+                  <a href="#" class="header-submenu-item">Люкс</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="hesder-submenu-item">Супер Люкс</a>
+                  <a href="#" class="header-submenu-item">Супер Люкс</a>
                 </li>
               </ul>
             </li>
 
             <li class="header-menu-item">
-              <a href="#" class="header-menu-limk">Іпотека</a>
+              <a href="#" class="header-menu-link">Іпотека</a>
             </li>
             <li class="header-menu-item">
-              <a href="#" class="header-menu-limk">Контакти</a>
+              <a href="#" class="header-menu-link">Контакти</a>
             </li>
           </ul>
         </nav>
