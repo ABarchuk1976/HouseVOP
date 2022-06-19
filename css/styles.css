@@ -142,6 +142,74 @@ img {
   padding-left: 14px;
 }
 
-.header-menu-popup:hover,
-.header-menu-popup:focus {
+/* main */
+
+.hero {
+  outline: 1px solid tomato;
+  width: 100%;
+  height: 840px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+      180deg,
+      #242b33 6.56%,
+      rgba(36, 43, 51, 0.3) 50.31%,
+      #242b33 89.37%
+    ),
+    url(../images/hero-image.jpeg);
+  background-size: cover;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.hero-title {
+  text-align: center;
+  font-family: Playfair Display, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.33;
+  color: var(--accent-color);
+  margin-bottom: 100px;
+}
+
+.hero-icon-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.hero-icon {
+  width: 23.53px;
+  height: 40px;
+  margin-bottom: 200px;
+}
+
+.hero-contacts {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 58px;
+}
+
+.hero-contacts-item:not(:last-child) {
+  margin-right: 134px;
+}
+
+.hero-contact-item-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hero-contact-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
+.hero-contact-icon-size {
+  display: block;
+  width: 21px;
+  height: 21px;
+  margin-right: 7px;
 }

@@ -69,35 +69,43 @@
     </header>
 
     <main>
-      <section class="hero">
-        <h1 class="hero-title">
-          Житловий комплекс <br />
-          в історичному центрі
-        </h1>
-        <svg class="hero-icon">
-          <use></use>
-        </svg>
-        <ul class="hero-contacts">
-          <li class="hero-contacts-item">
-            <div class="hero-contact-item-container">
-              <svg class="hero-contact-icon-address">
-                <use></use>
-              </svg>
-              <a href="#">вул. Садова 10-15</a>
-            </div>
-          </li>
-          <li class="hero-contacts-item">
-            <div class="hero-contact-item-container">
-              <svg class="hero-contact-icon-address">
-                <use></use>
-              </svg>
-              <a href="tel:+380991234567">+38 (099) 123-45-67</a>
-            </div>
-          </li>
-        </ul>
+      <section>
+        <div class="hero"></div>
+        <div class="container">
+          <h1 class="hero-title">
+            Житловий комплекс <br />
+            в історичному центрі
+          </h1>
+          <a href="#benefits" class="hero-icon-link">
+            <svg class="hero-icon">
+              <use href="./images/icons.svg#icon-mouse"></use>
+            </svg>
+          </a>
+
+          <ul class="hero-contacts">
+            <li class="hero-contacts-item">
+              <div class="hero-contact-item-container">
+                <svg class="hero-contact-icon-size">
+                  <use href="./images/icons.svg#icon-placeholder"></use>
+                </svg>
+                <a href="#map" class="hero-contact-link">вул. Садова 10-15</a>
+              </div>
+            </li>
+            <li class="hero-contacts-item">
+              <div class="hero-contact-item-container">
+                <svg class="hero-contact-icon-size">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+380991234567" class="hero-contact-link"
+                  >+38 (099) 123-45-67</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="benefits">
+      <section id="benefits" class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Переваги</h2>
           <ul class="benefits-list">
