@@ -1,0 +1,89 @@
+:root {
+  --page-width: 1920px;
+  --page-bg: #242b33;
+  --accent-color: #d4c17f;
+  --table-header-footer-bg: rgba(255, 255, 255, 0.1);
+  --form-text-color: #bebebe;
+  --modal-additional-text-color: #e7e7e7;
+  --modal-additional-bg: #565b60;
+  --wrong-text-color: #ff6c6c;
+  --area-bg: #a3a3a3;
+  --area-text-color: #5c5c5c;
+  --container-width: 1130px;
+  --default-pd-left: 15px;
+  --default-pd-right: 15px;
+  --default-section-pd-top: 0;
+  --default-section-pd-bottom: 0;
+
+  --header-logo-width: 165px;
+  --header-logo-height: 69px;
+}
+
+body {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 24px;
+  line-height: 1.17;
+  /* need change to ffffff */
+  color: #242b33;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* need correct */
+
+.container {
+  outline: 1px solid black;
+  width: var(--container-width);
+  padding-left: var(--default-pd-left);
+  padding-right: var(--default-pd-right);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fill-icon {
+  display: block;
+  fill: currentColor;
+}
+/*  */
+
+.logo-icon-size {
+  width: var(--header-logo-width);
+  height: var(--header-logo-height);
+}
