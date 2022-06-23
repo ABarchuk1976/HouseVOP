@@ -28,7 +28,7 @@
         <nav>
           <ul class="header-menu">
             <li class="header-menu-item">
-              <a href="#" class="header-menu-link">Про комплекс</a>
+              <a href="#benefits" class="header-menu-link">Про комплекс</a>
             </li>
             <li class="header-menu-item">
               <a href="#" class="header-menu-link">Район</a>
@@ -36,23 +36,22 @@
 
             <li class="header-menu-item">
               <div class="header-menu-popup">
-                Каталог квартир
-                <svg class="header-menu-icon-size fill-icon">
+                Каталог квартир<svg class="header-menu-icon-size fill-icon">
                   <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
               </div>
               <ul class="header-submenu">
                 <li class="header-submenu-item">
-                  <a href="#" class="header-submenu-item">Стандарт</a>
+                  <a href="#standard" class="header-submenu-link">Стандарт</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="header-submenu-item">Комфорт</a>
+                  <a href="#comfort" class="header-submenu-link">Комфорт</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="header-submenu-item">Люкс</a>
+                  <a href="#lux" class="header-submenu-link">Люкс</a>
                 </li>
                 <li class="header-submenu-item">
-                  <a href="#" class="header-submenu-item">Супер Люкс</a>
+                  <a href="#super" class="header-submenu-link">Супер Люкс</a>
                 </li>
               </ul>
             </li>
@@ -69,7 +68,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="section">
         <div class="hero"></div>
         <div class="container">
           <h1 class="hero-title">
@@ -105,84 +104,77 @@
         </div>
       </section>
 
-      <section id="benefits" class="benefits">
+      <section id="benefits" class="section">
         <div class="container">
-          <h2 class="visually-hidden">Переваги</h2>
+          <h2 class="visually-hidden">Про комплекс</h2>
           <ul class="benefits-list">
             <li class="benefits-list-item">
-              <div class="benefits-list-item-container">
-                <svg class="benefits-icon">
-                  <use></use>
-                </svg>
-                <span class="benefits-description">
-                  Поряд історичні парки та сквери
-                </span>
-              </div>
+              <svg class="benefits-icon">
+                <use href="./images/icons.svg#icon-bench"></use>
+              </svg>
+              <span class="benefits-description">
+                Поряд історичні парки та сквери
+              </span>
             </li>
             <li class="benefits-list-item">
-              <div class="benefits-list-item-container">
-                <svg class="benefits-icon">
-                  <use></use>
-                </svg>
-                <span class="benefits-description">Повністю облаштований</span>
-              </div>
+              <svg class="benefits-icon">
+                <use href="./images/icons.svg#icon-building"></use>
+              </svg>
+              <span class="benefits-description">Повністю облаштований</span>
             </li>
             <li class="benefits-list-item">
-              <div class="benefits-list-item-container">
-                <svg class="benefits-icon">
-                  <use></use>
-                </svg>
-                <span class="benefits-description"
-                  >10 фонтанів на території</span
-                >
-              </div>
+              <svg class="benefits-icon">
+                <use href="./images/icons.svg#icon-fountain"></use>
+              </svg>
+              <span class="benefits-description"
+                >10 фонтанів <br />
+                на території</span
+              >
             </li>
             <li class="benefits-list-item">
-              <div class="benefits-list-item-container">
-                <svg class="benefits-icon">
-                  <use></use>
-                </svg>
-                <span class="benefits-description">6 км велодоріжек</span>
-              </div>
+              <svg class="benefits-icon">
+                <use href="./images/icons.svg#icon-bicycle"></use>
+              </svg>
+              <span class="benefits-description">6 км велодоріжек</span>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="flats">
+      <section class="section">
         <div class="container">
           <h2 class="flats-title">Наші квартири</h2>
 
           <ul class="flats-list">
-            <li class="flats-list-item">
+            <li class="flats-list-item" id="standard">
               <a href="" class="flats-list-link">
                 <img src="" alt="" width="535" height="320" />
-                <span class="flats-description"></span>
+                <span class="flats-description">Стандарт — 1 поверх</span>
               </a>
             </li>
-            <li class="flats-list-item">
+            <li class="flats-list-item" id="comfort">
               <a href="" class="flats-list-link">
                 <img src="" alt="" width="535" height="320" />
-                <span class="flats-description"></span>
+                <span class="flats-description">Комфорт — 2 поверх</span>
               </a>
             </li>
-            <li class="flats-list-item">
+            <li class="flats-list-item" id="lux">
               <a href="" class="flats-list-link">
                 <img src="" alt="" width="535" height="320" />
-                <span class="flats-description"></span>
+                <span class="flats-description">Люкс — 3 поверх</span>
               </a>
             </li>
-            <li class="flats-list-item">
+            <li class="flats-list-item" id="super">
               <a href="" class="flats-list-link">
                 <img src="" alt="" width="535" height="320" />
-                <span class="flats-description"></span>
+                <span class="flats-description">Супер Люкс — 4 поверх</span>
               </a>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="pricing">
+      <section class="section pricing">
         <div class="container">
           <h2 class="pricing-title">Ціни</h2>
           <table>
@@ -229,7 +221,7 @@
         </div>
       </section>
 
-      <section class="invite">
+      <section class="section invite">
         <div class="container">
           <h2 class="invite-title">Хочете подивитися?</h2>
           <p class="invite-text">
