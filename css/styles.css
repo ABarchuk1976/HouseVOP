@@ -60,6 +60,11 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -244,8 +249,6 @@ img {
 
 .hero-contact-link {
   display: block;
-  text-decoration: none;
-  color: inherit;
   font-size: 18px;
 }
 
@@ -289,11 +292,81 @@ img {
 
 /* pricing */
 
-.pricing {
-  padding-bottom: 15px;
+.section.pricing {
+  padding: 15px 0;
+}
+
+.pricing-table {
+  margin-top: 40px;
+}
+
+.pricing-caption {
+  font-weight: 700;
+}
+
+.pricing-header,
+.pricing-footer {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .invite {
   padding-top: 152px;
   padding-bottom: 152px;
+}
+
+.title {
+  font-family: 'Playfair Display', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.333;
+  color: var(--accent-color);
+}
+
+.flats-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: 70px;
+}
+
+.flats-list-item {
+  position: relative;
+  display: block;
+  flex-basis: calc(100% / 2-30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.flats-list-img-first {
+  display: block;
+  width: 535px;
+  height: 320px;
+  background-color: transparent;
+  background-image: linear-gradient(
+      180deg,
+      rgba(36, 43, 51, 0) 0%,
+      #242b33 100%
+    ),
+    url(../images/first-view.jpeg);
+}
+
+.flats-list-img-second {
+  display: block;
+  width: 535px;
+  height: 320px;
+  background-color: transparent;
+  background-image: linear-gradient(
+      180deg,
+      rgba(36, 43, 51, 0) 0%,
+      #242b33 100%
+    ),
+    url(../images/second-view.jpeg);
+}
+
+.flats-description {
+  position: absolute;
+  display: block;
+  bottom: 26px;
+  left: 32px;
+  display: inline-block;
 }
